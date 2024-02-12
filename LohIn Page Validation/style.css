@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+}
+.form {
+  max-width: 500px; 
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+.form h2 {
+  text-align: center;
+  color: #333;
+  /* color: brown; */
+}
+/* form {
+  display: inline-block;
+} */
+.form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.form input[type="text"],
+.form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.form input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.form input[type="file"] {
+  display: none;  
+}
+.form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+#profile-pic{
+    width: 300px;
+    height: 25  0px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 20%;
+}
+#input-file1{
+    display: block;
+    width: 200px;
+    background: #e3362e;
+    color: #fff;
+    padding: 12px;
+    margin: 10px auto;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.error{
+    color: red;
+}
